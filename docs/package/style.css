@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#file-tree {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#editor-container {
+    flex: 1;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#scene-container {
+    width: 20%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.scene-item {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
